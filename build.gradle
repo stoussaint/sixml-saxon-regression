@@ -1,0 +1,16 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+
+//    compile('org.springframework.integration:spring-integration-xml:4.3.19.RELEASE')
+    compile('org.springframework.integration:spring-integration-xml:4.3.18.RELEASE')
+    
+    compile('net.sf.saxon:Saxon-HE:9.8.0-4')
+
+    testCompile('junit:junit:4.12')
+    testCompile('org.springframework:spring-test:4.3.21.RELEASE')
+}
